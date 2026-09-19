@@ -98,6 +98,6 @@ Jev returns typed probabilistic decisions for predefined questions. This list fa
 
 ## Contributing
 
-Contributions are welcome. Read the [contribution guidelines](CONTRIBUTING.md) before opening a pull request. A submission must explain exactly how Jev is used and link to primary evidence.
+Contributions are welcome through pull requests. A submission must explain exactly how Jev is used and link to primary evidence.
 
-The directory data and editorial list are released under [CC0 1.0 Universal](LICENSE).
+This list is released under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
