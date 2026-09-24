@@ -4,7 +4,7 @@ A curated list of TypeSafe Jev resources, SDKs, gateways, agents, MCP servers, a
 
 Jev returns typed probabilistic decisions for predefined questions. This list favors resources with a working canonical URL, public evidence, meaningful code or documentation, and a specific explanation of Jev's role.
 
-**Last verified:** 2026-09-24 · **Resources:** 278 · **Categories:** 11
+**Last verified:** 2026-09-24 · **Resources:** 265 · **Categories:** 11
 
 <!-- BEGIN GENERATED README RESOURCES -->
 ## Contents
@@ -316,19 +316,6 @@ Jev returns typed probabilistic decisions for predefined questions. This list fa
 
 ## Community resources
 
-- [awesome jev](https://github.com/cobanov/awesome-jev) - A curated, source-backed list of projects built with Jev, TypeSafe AI's System One model for typed decisions.
-- [awesome jev](https://github.com/fatwang2/awesome-jev) - A source-backed Jev project directory with a reusable Jev-only GitHub review workflow.
-- [awesome jev](https://github.com/AnotiaWang/awesome-jev) - A curated list of awesome Jev / TypeSafe System One applications, libraries, and resources.
-- [awesome jev](https://github.com/OmniJev/awesome-jev) - 🔥🔥 Papers, open reproductions and independent evaluations behind System One models and Jev.
-- [awesome jev](https://github.com/hellogumbo/awesome-jev) - A community directory of projects built on Jev, TypeSafe AI's System One model.
-- [awesome jev](https://github.com/kraayenjon/awesome-jev) - A curated list of Jev use cases, projects, SDKs, and resources. Jev is TypeSafe AI's System One model for fast, typed decisions in software — Choice, Score, and Noul with calibrated probabilities.
-- [Awesome Jev by AppitStudio](https://github.com/AppitStudio/awesome-jev) - Curated Jev resources, runnable examples, and agent skills for typed AI decisions.
-- [Awesome Jev by Valentyn Kit](https://github.com/valentynkit/awesome-jev-typesafe) - Community directory of Jev projects with source links and notes on vendor claims.
-- [Awesome Jev by yibie](https://github.com/yibie/awesome-jev) - A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions.
-- [Awesome Jev Gallery](https://github.com/OmniJev/awesome-jev-gallery) - Research gallery of papers, open reproductions, and independent evaluations related to System One models and Jev.
-- [awesome jev projects](https://github.com/logicrw/awesome-jev-projects) - Awesome Jev: source-backed open-source ecosystem radar, plain-language project discovery, and automatic GitHub sync.
-- [awesome jev tools](https://github.com/v-modal/awesome-jev-tools) - A curated list of tools built for Jev — TypeSafe AI's System One model for typed decisions.
-- [Awesome TypeSafe](https://github.com/AbdelStark/awesome-typesafe) - A curated list of official resources and community projects for TypeSafe, System One models, and Jev.
 - [Jevify](https://github.com/altryne/jevify) - An agent skill to discover TypeSafe Jev opportunities, design typed questions, and learn from recent community experiments.
 - [Learn Jev Tutorials](https://learnjev.com/tutorials) - Independent tutorials for Jev concepts, patterns, confidence, and reliability.
 <!-- END GENERATED README RESOURCES -->
