@@ -4,7 +4,7 @@ A curated list of TypeSafe Jev resources, SDKs, gateways, agents, MCP servers, a
 
 Jev returns typed probabilistic decisions for predefined questions. This list favors resources with a working canonical URL, public evidence, meaningful code or documentation, and a specific explanation of Jev's role.
 
-**Last verified:** 2026-09-24 · **Resources:** 265 · **Categories:** 11
+**Last verified:** 2026-09-25 · **Resources:** 279 · **Categories:** 11
 
 <!-- BEGIN GENERATED README RESOURCES -->
 ## Contents
@@ -34,12 +34,16 @@ Jev returns typed probabilistic decisions for predefined questions. This list fa
 - [Effective Jev](https://github.com/stoopid-computers/effective-jev) - Independent EffectTS-based fork of the TypeSafe JavaScript and TypeScript SDK.
 - [Jev for OTP](https://github.com/dannote/jev) - TypeSafe Jev for OTP: reply to Jev from a GenServer and pattern match on its answer.
 - [jev go](https://github.com/stumble/jev-go) - Independent Go SDK for TypeSafe AI's Jev and System One API.
+- [Jev Haskell Client](https://github.com/realbogart/jev) - Haskell client with typed Choice, Score, and Noul questions for TypeSafe Jev.
+- [Jev Python Function Decorator](https://github.com/aaazzam/jev) - Python decorator that maps Pydantic return fields to Jev Choice, Score, and Noul questions.
 - [jevclient](https://github.com/AboveColin/jevclient) - Async Python client for TypeSafe Jev. Typed questions in, probabilities and choices out, no prose to parse.
+- [OpenAI Scala Client TypeSafe Module](https://github.com/cequence-io/openai-scala-client/tree/master/typesafe-client) - Scala client with a native TypeSafe System One module for typed Jev questions and answers.
 - [Rig TypeSafe AI Integration](https://github.com/0xPlaygrounds/rig/tree/main/crates/rig-typesafeai) - Rust agent framework crate for TypeSafe Jev decisions.
 - [ruby decision model](https://github.com/obie/ruby_decision_model) - Ruby client for decision models such as Typesafe Jev.
 - [RubyLLM TypeSafe](https://github.com/kieranklaassen/ruby_llm-typesafe) - TypeSafe structured-output provider for RubyLLM 2.
 - [swift typesafe](https://github.com/ainame/swift-typesafe) - Unofficial Swift SDK for TypeSafe.
 - [System One Adapter for Python](https://github.com/typesafe-ai/system-one-adapter-python) - Drop-in TypeSafeClient replacement backed by LLM APIs.
+- [TypeSafe AI Java SDK](https://github.com/jamilxt/typesafe-ai-java) - Community-maintained Java SDK for Jev with a Kotlin DSL, Spring Boot starter, and Spring AI integration.
 - [TypeSafe AI Rust](https://github.com/gilljon/typesafe-ai-rs) - Independent async and blocking Rust SDK for the TypeSafe AI System One API.
 - [TypeSafe for Elixir](https://github.com/hfiguera/typesafe_ai) - An Elixir client for TypeSafe AI with typed responses and bounded concurrency.
 - [TypeSafe JavaScript and TypeScript SDK](https://github.com/typesafe-ai/typesafe-sdk-js) - The official TypeScript/JavaScript library for the TypeSafe API.
@@ -55,7 +59,9 @@ Jev returns typed probabilistic decisions for predefined questions. This list fa
 
 ## Gateways and integrations
 
+- [Agent Squad Jev Classifier](https://github.com/2FastLabs/agent-squad) - Multi-agent framework with TypeScript and Python classifiers that use Jev to route requests.
 - [AI SDK TypeSafe provider](https://ai-sdk.dev/providers/ai-sdk-providers/typesafe-ai) - Vercel's TypeSafe provider adds Jev evaluation models to AI SDK's typed decision API.
+- [Ax TypeSafe Jev Support](https://github.com/ax-llm/ax) - Multi-language AI framework with TypeSafe Jev support in TypeScript, Python, Java, C++, Go, and Rust.
 - [Bifrost TypeSafe Provider](https://github.com/maximhq/bifrost/tree/main/core/providers/typesafe) - AI gateway exposing TypeSafe model access through its `/typesafe` integration.
 - [GPTCache Jev Evaluation](https://github.com/zilliztech/GPTCache/blob/main/gptcache/similarity_evaluation/jev.py) - Semantic cache with a Jev evaluator for checking whether a cached answer fits a query.
 - [Hono Jev Router](https://github.com/yusukebe/hono-jev-router) - Route HTTP requests by meaning. A semantic router for Hono powered by Jev.
@@ -74,6 +80,7 @@ Jev returns typed probabilistic decisions for predefined questions. This list fa
 - [neo4jev](https://github.com/jexp/neo4jev) - Typesafe.ai System One Model Jev navigating a Neo4j graph by using a classifier over neighbouring relationships.
 - [NeuroLink](https://github.com/juspay/neurolink) - TypeScript AI integration layer whose decide API exposes TypeSafe Jev typed judgments alongside generation and streaming.
 - [OpenInference TypeSafe Instrumentation](https://github.com/Arize-ai/openinference/tree/main/python/instrumentation/openinference-instrumentation-typesafe) - OpenInference instrumentation for tracing TypeSafe AI SDK calls in OpenTelemetry-compatible systems.
+- [OpenViking Jev Reranker](https://github.com/volcengine/OpenViking/blob/main/openviking/models/rerank/jev_rerank.py) - Agent context database with a Jev reranker that scores each candidate document against a query.
 - [Opik TypeSafe Instrumentation](https://github.com/comet-ml/opik/tree/main/sdks/python/src/opik/integrations/typesafe) - LLM observability platform with instrumentation for TypeSafe calls.
 - [pg_typesafe](https://github.com/giuliosmall/pg_typesafe) - Pre-alpha PostgreSQL extension that exposes TypeSafe Jev Choice, Noul, and Score functions in SQL.
 - [Pydantic AI TypeSafeModel](https://pydantic.dev/docs/ai/models/typesafe/) - Pydantic AI's TypeSafeModel uses Jev for typed agent outputs and supported tool arguments.
@@ -87,7 +94,10 @@ Jev returns typed probabilistic decisions for predefined questions. This list fa
 
 - [ask-jev-skill](https://github.com/shantanugoel/ask-jev-skill) - Hermes skill that calls TypeSafe Jev as a typed tiebreaker for agent decisions.
 - [Caliber Jev Compaction plugin](https://github.com/caliber-ai-org/ai-setup/tree/master/plugin/caliber-jev-compaction) - Claude Code plugin that uses Jev relevance scores to remove stale tool results during context compaction.
+- [Claude Code Templates Jev Mods](https://github.com/davila7/claude-code-templates) - Claude Code toolkit with Jev mods for prompt and reply guardrails, model routing, and skill suggestions.
 - [commit miner](https://github.com/devanshbatham/commit-miner) - Classify Git commit diffs and messages with Jev. Bug fixes, security fixes/CWEs, and change types.
+- [DeerFlow Jev Classifier Extension](https://github.com/bytedance/deer-flow/tree/main/examples/deerflow-extension-jev-classify) - Optional DeerFlow extension that adds a tool for classifying short text batches with Jev Choice questions.
+- [DeerFlow Jev Context Pruning](https://github.com/bytedance/deer-flow/tree/main/examples/deerflow-extension-jev-context) - Optional DeerFlow extension that uses Jev to shorten old read-only tool results before summarization.
 - [fast dev compaction](https://github.com/leonaaardob/fast-dev-compaction) - Codex plugin: verbatim Jev-guided context restoration around session compaction. Port of tamaratran/fast-jev-compaction to Codex lifecycle hooks.
 - [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) - Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.
 - [grok-bot-jev](https://github.com/Bodila51/grok-bot-jev) - Python decision layer that adds Jev-based usage gates and approval-aware routing to Grok Bot.
@@ -158,6 +168,7 @@ Jev returns typed probabilistic decisions for predefined questions. This list fa
 - [jev-recruiter](https://github.com/skeptrunedev/jev-recruiter) - Local recruiting workspace where Jev screens visible LinkedIn profiles against a hiring brief.
 - [jev-use](https://github.com/savka777/jev-use) - macOS voice and typed computer-use harness that selects actions from the Accessibility tree with Jev.
 - [jev-voice](https://github.com/kevinbadi/jev-voice) - macOS voice-control app that uses Whisper and one TypeSafe Jev call per command.
+- [macOS Computer Use Kit Jev Guards](https://github.com/Sur-Cai/macos-computer-use-kit) - macOS MCP server and CLI with optional Jev judgments for semantic guardrails before irreversible actions.
 - [Mobile Jev](https://github.com/droidrun/mobile-jev) - Mobile agent for Mobilerun that uses Jev to choose actions on a real Android device.
 - [Needle](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_llm_apps/needle) - Chrome extension and React app that use Jev to rank webpage passages and highlight the most relevant sentence.
 - [TipTour](https://github.com/milind-soni/tiptour-macos) - macOS computer-use app where Jev selects click targets from locally detected controls.
@@ -172,6 +183,7 @@ Jev returns typed probabilistic decisions for predefined questions. This list fa
 - [Blink](https://github.com/ellipsis-dev/blink) - Codebase search powered by Jev from @typesafe-ai.
 - [Dasheng](https://github.com/wquguru/dasheng) - English reading practice that uses Jev to judge word-level correctness and sentence-level scores.
 - [Distill](https://github.com/samuelfaj/distill) - Coding-agent harness that uses Jev for model selection, effort choices, and tool-result compaction.
+- [Dub Jev Malicious Link Check](https://github.com/dubinc/dub/blob/main/apps/web/lib/api/links/malicious-link-check.ts) - Link attribution platform that screens destination URLs with Jev when links are created.
 - [EmbodiedJev](https://github.com/FBddcz/embodied-jev) - MuJoCo robot decision workbench with TypeSafe Jev, MiniCPM, and compatible model APIs.
 - [evoke](https://github.com/evoke-build/evoke) - Rust CLI, reflex package manager, and TypeScript SDK where Jev selects a small installed program and its arguments.
 - [Foreman](https://github.com/thruwire/foreman) - Software factory foreman based on TypeSafe's Jev model.
@@ -225,6 +237,7 @@ Jev returns typed probabilistic decisions for predefined questions. This list fa
 - [sqlite-jev](https://github.com/mgaitan/sqlite-jev) - Batched natural-language judgments for SQLite, powered by TypeSafe Jev.
 - [Stanley](https://github.com/devagrawal09/stanley-code) - Bounded TypeSafe Jev workflows for coding agents.
 - [Tax Document Classifier](https://github.com/kyotofin/tax-doc-classifier) - Tax document page classifier built on Jev decisions. 100% strict accuracy across 261 IRS forms, ~$0.001 per page.
+- [TradingAgents](https://github.com/TauricResearch/TradingAgents/blob/main/tradingagents/agents/post_screen.py) - Multi-agent trading framework that uses Jev to screen StockTwits and Reddit posts for relevance and stance before sentiment analysis.
 - [TypeSafe Mario](https://github.com/fhshaik/typesafe-mario) - A TypeSafe/Jev agent that plays Super Mario Bros. from structured emulator state.
 - [typesafe snake](https://github.com/sorrycc/typesafe-snake) - Snake auto-played by TypeSafe's Jev model: one System One choice per tick, legal moves and facts generated in code.
 - [Vercel eve](https://github.com/vercel/eve) - Vercel's agent framework uses Jev for response-model selection, typed evaluations, and tool-call approval.
@@ -295,6 +308,7 @@ Jev returns typed probabilistic decisions for predefined questions. This list fa
 - [jev-rerank-bench](https://github.com/anessbelbati/jev-rerank-bench) - Can a decision model beat dedicated rerankers? TypeSafe Jev vs Cohere Rerank 4 vs ZeroEntropy zerank-2 vs a chat-model baseline: 14 datasets, every raw API response, bootstrap ranges on every gap.
 - [jevals](https://github.com/openlayer-ai/jevals) - Python toolkit for agent evaluation and guardrails with Jev, Kev, Laya, and chat-model backends.
 - [JEVQA video-quality evaluation](https://arxiv.org/abs/2609.24395) - Preprint and public result data evaluating Jev for zero-shot video-quality prediction from metadata and codec features.
+- [Openwork Jev Verification Dictionary](https://github.com/different-ai/openwork/blob/dev/evals/verification-dictionary.md) - Experimental evaluator that uses Jev to select author-defined checks before deterministic replay.
 - [Typed Evals](https://github.com/TrustifAI/typed_evals) - Python package and CLI for evaluating LLM, RAG, and agent outputs with Jev, optional calibration, and tool guards.
 - [TypeSafe AI Benchmark](https://github.com/iammrduncan/typesafe-ai-benchmark) - This is a LLM Gateway that mimics typesafe ai structured output. Like an imposter Jev.
 - [TypeSafe Workflow Evals](https://evals.typesafe.ai/) - Official workflow evaluations for Jev decision tasks.
