@@ -4,7 +4,7 @@ A curated list of TypeSafe Jev resources, SDKs, gateways, agents, MCP servers, a
 
 Jev returns typed probabilistic decisions for predefined questions. This list favors resources with a working canonical URL, public evidence, meaningful code or documentation, and a specific explanation of Jev's role.
 
-**Last verified:** 2026-09-28 · **Resources:** 303 · **Categories:** 11
+**Last verified:** 2026-09-30 · **Resources:** 308 · **Categories:** 11
 
 <!-- BEGIN GENERATED README RESOURCES -->
 ## Contents
@@ -80,6 +80,7 @@ Jev returns typed probabilistic decisions for predefined questions. This list fa
 - [Laravel TypeSafe Jev](https://github.com/butochnikov/laravel-typesafe-jev) - Community Laravel integration for TypeSafe Jev with typed responses, async requests, dependency injection, and testing fakes.
 - [LiteLLM Jev integrations](https://docs.litellm.ai/docs/auto_router/) - LiteLLM uses Jev for Auto Router classification and relevance checks during context compaction.
 - [LlamaIndex Jev](https://github.com/wiktorb2004/llama-index-jev) - LlamaIndex reranker + router powered by TypeSafe Jev — typed scores/choices, cheaper than LLM-as-judge.
+- [LLPhant Jev Classifier](https://github.com/LLPhant/LLPhant) - PHP AI framework with a typed Jev classifier for Choice, Score, and Noul questions.
 - [n8n-nodes-typesafe-ai](https://github.com/DomMonte/n8n-nodes-typesafe-ai) - n8n community node for branching workflows on TypeSafe System One typed decisions.
 - [neo4jev](https://github.com/jexp/neo4jev) - Typesafe.ai System One Model Jev navigating a Neo4j graph by using a classifier over neighbouring relationships.
 - [NeuroLink](https://github.com/juspay/neurolink) - TypeScript AI integration layer whose decide API exposes TypeSafe Jev typed judgments alongside generation and streaming.
@@ -201,6 +202,7 @@ Jev returns typed probabilistic decisions for predefined questions. This list fa
 - [evoke](https://github.com/evoke-build/evoke) - Rust CLI, reflex package manager, and TypeScript SDK where Jev selects a small installed program and its arguments.
 - [Foreman](https://github.com/thruwire/foreman) - Software factory foreman based on TypeSafe's Jev model.
 - [GenOffice](https://github.com/genspark-ai/genoffice) - Desktop office suite with optional Jev reranking for local file searches.
+- [GPT Researcher](https://github.com/assafelovic/gpt-researcher) - Research agent that uses TypeSafe Jev to score scraped passages before context reaches its language model.
 - [HA-Jev](https://github.com/AboveColin/HA-Jev) - Ask your house a question, get a number back. Home Assistant integration for TypeSafe Jev: typed answers as sensors, four actions for automations, and a conversation agent for Assist.
 - [Inbox Zero TypeSafe Decision Provider](https://github.com/elie222/inbox-zero/tree/main/apps/web/utils/decision-model) - Email assistant with an optional TypeSafe decision provider.
 - [invalidate](https://github.com/chopratejas/invalidate) - Agent memory invalidation layer that uses Jev to decide when stored facts are no longer valid.
@@ -240,7 +242,10 @@ Jev returns typed probabilistic decisions for predefined questions. This list fa
 - [jgrep](https://github.com/keltokhy/jgrep) - grep, but the pattern is a description. Filters lines by meaning with TypeSafe's Jev decision model: ~200 ms and a thousandth of a cent per line.
 - [jsort](https://github.com/keltokhy/jsort) - CLI that orders lines by a plain-English dimension using pairwise Jev judgments.
 - [killmyidea](https://github.com/monteduro/killmyidea) - Describe your startup idea. Jev decides: kill it, fix it or ship it.
+- [Math-To-Manim](https://github.com/HarleyCoops/Math-To-Manim) - Math and physics animation pipeline that uses TypeSafe Jev to review staged explanation, equation, and code checkpoints.
+- [OpenCodex](https://github.com/lidge-jun/opencodex) - Codex and Claude Code provider proxy with an optional Jev route for selecting a model and reasoning effort.
 - [OpenCompany](https://github.com/tinyhumansai/opencompany) - OpenCompany uses Jev to select which agent handles a room message or broadcast in its multi-agent runtime.
+- [OpenHuman](https://github.com/tinyhumansai/openhuman) - Rust agent harness that uses Jev to rank tool-search candidates and select browser actions, with host-controlled approval gates for consequential actions.
 - [perch](https://github.com/lakeday-org/perch) - Semantic code linting tool with a CLI, custom rules, and agent integrations.
 - [pg-jev](https://github.com/realZachi/pg-jev) - Ask your Postgres tables questions in plain language. A PostgreSQL extension powered by TypeSafe's Jev.
 - [quackd](https://github.com/rokbenko/quackd) - One CLI for all your robots. Connect them, command them, and let them work together, each with an LLM for a brain, Jev for cheaper steps. Microduck, Open Duck Mini, LeRobot, XLeRobot, AlohaMini, ToddlerBot or any ROS base. Claude, OpenAI, Gemini, Grok, or local via Ollama or vLLM. Simulator, .duck safety contracts, MCP, memory between runs, flocks.
