@@ -423,6 +423,7 @@ Jev returns typed probabilistic decisions for predefined questions.
 
 - [Jevify](https://github.com/altryne/jevify) - An agent skill to discover TypeSafe Jev opportunities, design typed questions, and learn from recent community experiments.
 - [Learn Jev Tutorials](https://learnjev.com/tutorials) - Independent tutorials for Jev concepts, patterns, confidence, and reliability.
+- [Made with Jev: How to use Jev](https://madewithjev.com/how-to-use-jev) - Walks through a first Jev call line by line (state, questions, typed answer, branching on confidence), then covers the SDKs, gateways and coding-agent setup.
 <!-- END GENERATED README RESOURCES -->
 
 ## Contributing
